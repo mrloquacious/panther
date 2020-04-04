@@ -13,4 +13,4 @@ group :jekyll_plugins do
   #gem 'jekyll-feed'
 end
 
-#gem 'bootstrap', '~> 4.2.1'
+gem 'bootstrap', '~> 4.3.1'
