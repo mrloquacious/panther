@@ -1,0 +1,36 @@
+body {
+  color: $body-font-color;
+  background-color: $body-bg-color;
+  font-family: $body-font;
+  padding-top: 10%;
+}
+
+h1 {
+  color: $h1-font-color;
+}
+
+h2 {
+  color: $h2-font-color;
+}
+
+h3 {
+  font-family: $h3-font;
+  color: $h3-font-color;
+}
+
+a, a:visited {
+  color: $link-color;
+  text-decoration: none;
+  //font-weight: bold;
+}
+
+a:hover {
+  color: $link-hover-color;
+  text-decoration: none;
+}
+
+.navbar {
+  font-size: $nav-font-size;
+  background-color: black !important;
+}
+

@@ -1,0 +1,42 @@
+
+# *** Note that if the site is being served, it must be restarted for config.yml changes to take effect ***
+
+# Site Settings
+title: The Panther PDX
+email: panther@thepantherpdx.com #TODO fix this.
+description: >
+  Studio info.
+# baseurl: "/panther" 
+baseurl: ''
+url: "http://localhost:4000"
+#url: "http://mrloquacious.github.io"
+permalink: /:title.html
+page_permalink: pretty
+
+# ?
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM # GitHub Flavored Markdown
+  plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap 
+  - jekyll-feed
+ 
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+#exclude:
+#  - Gemfile
+#  - Gemfile.lock
+#  - node_modules
+#  - update_boostrap.sh
+

@@ -1,0 +1,25 @@
+
+<nav class="navbar navbar-expand-md justify-content-center fixed-top border-bottom bg-dark"
+  role="navigation">
+
+  <ul class="navbar-nav">
+
+    {% comment %}
+    <li class="nav-item"><a href="{{ '/' | prepend:  site.baseurl }}" 
+                            class="nav-link">Home</a></li>
+    {% for page in site.pages %} {% if page.title != "Home" %}
+    <li class="nav-item"><a href="{{ page.url | prepend: site.baseurl }}" 
+                            class="nav-link">{{ page.title }}</a></li>
+    {% endif %} {% endfor %}
+    {% endcomment %}
+
+    <li class="nav-item"><a href="{{ '/' | prepend:  site.baseurl }}" 
+                            class="nav-link">Home</a></li>
+    {% for pg in site.data.navigation.pgs %}
+    <li class="nav-item"><a href="{{ pg.permalink }}";
+                            class="nav-link">{{ pg.title }}</a></li>
+    {% endfor %}
+
+  </ul>
+</nav>
+

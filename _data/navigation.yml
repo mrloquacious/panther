@@ -1,0 +1,27 @@
+pgs:
+  - title: About
+    order: 1
+    url: about.html
+    permalink: /about/
+  - title: Contact 
+    order: 2
+    url: contact.html
+    permalink: /contact/
+  - title: Gear 
+    order: 3
+    url: gear.html
+    permalink: /gear/
+  - title: Services
+    order: 4
+    url: services.html
+    permalink: /services/
+  - title: Discog 
+    order: 5
+    url: discog.html
+    permalink: /discog/
+  - title: Photos 
+    order: 6
+    url: photo.html
+    permalink: /photos/
+---
+
