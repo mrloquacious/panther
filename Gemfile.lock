@@ -24,7 +24,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (9.7.5)
       execjs
-    bootstrap (4.2.1)
+    bootstrap (4.3.1)
       autoprefixer-rails (>= 9.1.0)
       popper_js (>= 1.14.3, < 2)
       sassc-rails (>= 2.0.0)
@@ -126,7 +126,7 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tzinfo (1.2.6)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
     unicode-display_width (1.7.0)
     zeitwerk (2.3.0)
@@ -135,7 +135,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap (~> 4.2.1)
+  bootstrap (~> 4.3.1)
   jekyll
   jekyll-seo-tag
   jekyll-sitemap
