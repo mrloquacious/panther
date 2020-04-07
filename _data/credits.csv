@@ -1,14 +1,14 @@
-title,artist,year,released,type,mp3one,mp3two
-Rev It Up,Size 85 High Tops,2020,false,record,Devolute.mp3,Cemetary_Solitaire.mp3
-Axiom,Steve Drizos,2020,false,record,Color_Safe.mp3,One_Night_In_Berlin.mp3
-Cracks in the Heartland,Dana Lyons,2020,false,record,false,false
-Cavity Search 2020,Cavity Search Records Compilation,2020,false,record,false,false
-The Box,Young Jim Carr,2019,true,record,false,false
-Full Metal Burqa,Jerry Joseph,2018,true,record,Peace_Lights.mp3,Chicken_Street.mp3
-One With the Tide,Alice Di Micele,2018,true,record,false,false
-French Kayaking Music,Jenny Conlee/Steve Drizos,2015,true,record,Back_In_France.mp3,The_Canyon.mp3
-Scott the Hoople in the Dungeon of Horror,The Minus 5,2014,true,record,false,false
-Curve and Shake,Walter Salas-Humara,2014,true,record,false,false
-Singing in the Rain,Jerry Joseph,2014,true,record,false,false
-Voyagers Without Trace,Ian McCluskey,2015,true,documentary,false,false
-The Kid,Jeff Winograd,2014,true,short film,false,false
+title,artist,year,released,type
+Rev It Up,Size 85 High Tops,2020,false,record
+Axiom,Steve Drizos,2020,false,record,
+Cracks in the Heartland,Dana Lyons,2020,false,record
+Cavity Search 2020,Cavity Search Records Compilation,2020,false,record
+The Box,Young Jim Carr,2019,true,record
+Full Metal Burqa,Jerry Joseph,2018,true,record
+One With the Tide,Alice Di Micele,2018,true,record
+French Kayaking Music,Jenny Conlee/Steve Drizos,2015,true,record
+Scott the Hoople in the Dungeon of Horror,The Minus 5,2014,true,record
+Curve and Shake,Walter Salas-Humara,2014,true,record
+Singing in the Rain,Jerry Joseph,2014,true,record
+Voyagers Without Trace,Ian McCluskey,2015,true,documentary
+The Kid,Jeff Winograd,2014,true,short film

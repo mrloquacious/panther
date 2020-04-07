@@ -11,10 +11,10 @@ pgs:
     order: 3
     url: gear.html
     permalink: /gear/
-  - title: Services
+  - title: Listen
     order: 4
-    url: services.html
-    permalink: /services/
+    url: listen.html
+    permalink: /listen/
   - title: Discog 
     order: 5
     url: discog.html
