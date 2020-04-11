@@ -32,7 +32,7 @@ Audio Technica  AE2500 (Dual Capsule),microphones,false
 AKG D12 E,microphones,false
 Audio Technica ATM25,microphones,false
 Shure SM57 x2,microphones,false
-Shure Sm58 x3,microphones,false
+Shure SM58 x3,microphones,false
 UAD,plug ins,false
 Soundtoys,plug ins,false
 Waves,plug ins,false
@@ -46,14 +46,15 @@ Cordoba C5 Nylon String,guitars,false
 Martin LX1 3/4 Size Acoustic,guitars,false
 Crown “Hofner Style” Bass,guitars,false
 "Supro 1600 Supreme (1x10”, 25W)",amps,false
-1951 National Tweed (1x10”. 15W),amps,false
+1951 National Valco Tweed (1x10”. 15W),amps,false
 "1970’s Univox Solid State (1x12”, 15W)",amps,false
 "Fender Hot Rod Deluxe (1x12”, 40W)",amps,true
+SWR Red Head Bass Combo (2x10”, 240W),amps,false
 Motion Sound Pro-145 Rotary Speaker,amps,true
 Kimball Grand Piano,keys,false
 Baldwin Acrosonic Spinet Piano,keys,false
 Hammond B3 w/ Leslie 145 Cabinet,keys,false
-Wurlitzer,keys,false
+Wurlitzer 200A Electric Piano,keys,false
 Moog Little Phatty Synth,keys,false
 Juno 106 Synth,keys,false
 Little Bits Modular Synth,keys,false
@@ -75,6 +76,5 @@ Roland CompuRhythm CR-8000 Drum Machine,other,false
 Theremin,other,false
 Large Selection of FX Pedals,other,false
 Converted 1950’s Reel to Reel Machine Into Amplifier,other,false
-Akai GX-747 dbx 1/4” Tape Deck,other,true
 Onkyo Dual Cassette Deck,other,false
 Tascam 4 Track Cassette Recorder,other,false
