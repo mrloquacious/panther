@@ -20,6 +20,10 @@ permalink: /gear/
    <br>
 {% endfor%}
 
+\* Check Availability
+
+<br><br>
+
 {% comment %}
 ## Monitoring
 ## A/D Converters

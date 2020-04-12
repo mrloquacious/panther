@@ -3,6 +3,8 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .DS_Store
+*.DS_Store
+*.swp
 assets/.DS_Store
 assets/unused
 assets/doneconvert
