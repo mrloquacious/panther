@@ -2,7 +2,15 @@ body {
   color: $body-font-color;
   background-color: $body-bg-color;
   font-family: $body-font;
-  padding-top: 10%;
+  padding-top: 140px; //10%;
+  -webkit-font-smoothing: antialiased;
+
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  //line-height: 1;
 }
 
 h1 {
@@ -33,6 +41,7 @@ a:hover {
 .navbar {
   font-size: $nav-font-size;
   background-color: black !important;
+  line-height: .8;
 }
 
 .navbar .navbar-collapse {
@@ -43,6 +52,7 @@ a:hover {
     background-color: black;
 }
 
+/* ##### Start Navbar custom color ################################# */
 /* change the brand and text color */
 .navbar-custom .navbar-brand, .navbar-custom .navbar-text {
     //color: $link-color;
@@ -62,6 +72,36 @@ a:hover {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
+/* ##### End Navbar custom color ################################# */
+
+/* FOOTER */
+footer {
+  font-size: .75em;
+  position: absolute;
+  bottom: 0; // 10px;
+  width: 100%;
+  height: 2.5rem;
+  padding-top: 30px;
+  //margin-top: 30px;
+}
+
+/* Keeps the footer at the bottom */
+.page-container {
+  position: relative; 
+  min-height: 100vh;
+}
+.content-wrap {
+  padding-bottom: 2.5rem; /* Footer height */
+}
+
+
+
+
+
+
+
+
+/* ##### Start Media queries ################################# */
 // Extra small devices (portrait phones, less than 576px)
 @media (max-width: 575.98px) { 
   
@@ -86,3 +126,4 @@ a:hover {
 @media (min-width: 1200px) {
 
 }
+/* ##### End Media queries ################################# */

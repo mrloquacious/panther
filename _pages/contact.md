@@ -18,8 +18,9 @@ dexdrizos@yahoo.com
   @thepantherpdx  
   </div>
   <div class="col-9">
-  <!--Instagram-->
+  <!--Instagram
    <button type="button" class="btn btn-ins"><i class="fab fa-instagram pr-1"></i> Instagram</button>
+-->
   </div>
 </div>
 
@@ -31,8 +32,9 @@ dexdrizos@yahoo.com
   Steven Drizos  
   </div>
   <div class="col-9"> 
-  <!--Facebook-->
+  <!--Facebook
    <button type="button" class="btn btn-fb"><i class="fab fa-facebook-f pr-1"></i> Facebook</button>
+-->
   </div>
 </div>
 <br><br>
