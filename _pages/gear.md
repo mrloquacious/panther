@@ -14,7 +14,7 @@ permalink: /gear/
   <h3>{{ category.geartype | upcase }}</h3>
     {% for item in site.data.gear %}
       {% if item.type == category.geartype %}
-   <span class="gear-name">{{ item.name }}</span>{% if item.checkavail == "true" %}<span>\*</span>{% endif %}<br>
+   <span class="gear-name">{{ item.name }}</span>{% if item.checkavail == "true" %}<span>\*</span>{% endif %} <br>
       {% endif %}
     {% endfor %}
    <br>

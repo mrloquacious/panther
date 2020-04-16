@@ -10,23 +10,42 @@ permalink: /discog/
 
 {% for credit in site.data.credits %}
   {% if credit.type == "record" %}
-  <span class="credit-title">{{ credit.title }}</span> 
-  <span class="credit-artist">{{ credit.artist }}</span>
-  <span class="credit-year">{{ credit.year }}</span>{% if credit.released == "false" %}<span> release</span>{% endif %}
+<div class="row">
+  <div class="col-5"> 
+   <span class="credit-title">{{ credit.title }}</span> 
+  </div>
+  <div class="col-4"> 
+   <span class="credit-artist">{{ credit.artist }}</span>
+  </div>
+  <div class="col-3"> 
+   <span class="credit-year">{{ credit.year }}</span>{% if credit.released == "false" %}<span> release</span>{% endif %}
+  </div>
+</div>
 {% endif %}
 {% endfor %}
 
 <br><br> 
 
-### Film
+<div class="row">
+  <div class="col">
+   <h3>Film</h3>
+  </div>
+</div>
 
 <br> 
 
+<div class="row">
 {% for credit in site.data.credits %}
   {% if credit.type == "short film" or credit.type == "documentary" %}
-  <span class="credit-title">{{ credit.title }}</span>
-  <span class="credit-type">{{ credit.type | capitalize }}</span> by <span class="credit-artist">{{ credit.artist }}</span>
-  <span class="credit-year">{{ credit.year }}</span><br>
+  <div class="col-5"> 
+   <span class="credit-title">{{ credit.title }}</span>
+  </div>
+  <div class="col-4"> 
+   <span class="credit-type">{{ credit.type | capitalize }}</span> by <span class="credit-artist">{{ credit.artist }}</span>
+  </div>
+  <div class="col-3"> 
+   <span class="credit-year">{{ credit.year }}</span>
+  </div>
   {% endif %}
 {% endfor %}
-
+</div>
