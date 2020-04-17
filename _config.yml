@@ -8,7 +8,8 @@ description: >
   Studio info.
 # baseurl: "/panther" 
 baseurl: ''
-url: "http://localhost:4000"
+url: "http://pantherdev.netlify.com"
+#url: "http://localhost:4000"
 #url: "http://mrloquacious.github.io"
 permalink: /:title.html
 page_permalink: pretty
