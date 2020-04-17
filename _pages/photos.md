@@ -22,5 +22,3 @@ permalink: /photos/
   </a>
 </div>
 
-<a class="left carousel-control" href="#myCarousel" data-slide="prev" onclick="$('#myCarousel').carousel('prev')">‹</a>
-
