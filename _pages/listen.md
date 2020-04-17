@@ -17,6 +17,7 @@ permalink: /listen/
   <div class="col-8"><span class="credit-artist">{{ mp3.artist }}</span>
   </div>
 </div>
+<br>
   {% endif %}
 {% endfor %}
 
