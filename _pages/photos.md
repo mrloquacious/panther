@@ -7,7 +7,7 @@ permalink: /photos/
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
   {% for pic in site.data.photo %}
-   <div class="carousel-item {% if forloop.first %}active{% endif %}">
+   <div class="carousel-item {% if forloop.first %}active{% endif %} text-center">
    <img src="/assets/photo/{{ pic.photo }}" class="d-block w-100 img-fluid" alt="Image of Panther PDX studio">
   </div>
   {% endfor %}
