@@ -2,7 +2,7 @@ body {
   color: $body-font-color;
   background-color: $body-bg-color;
   font-family: $body-font;
-  padding-top: 140px; //10%;
+  padding-top: 100px; //  10%; //140px;
   -webkit-font-smoothing: antialiased;
 
   speak: none;
@@ -36,9 +36,12 @@ h3 {
   color: $h3-font-color;
 }
 
-a, a:visited {
+a {
   //color: $link-color !important;
   color: $link-color;
+  text-decoration: none;
+}
+a:visited {
   text-decoration: none;
 }
 
@@ -52,7 +55,9 @@ a:hover {
   font-size: 1.25rem; 
 }
 
-
+.credit-title, .credit-artist, .credit-year, .credit-type, .listen-title, .listen-artist, .contact-info {
+  font-size: 1.15rem;
+} 
 
 /* ##### Start Navbar ############################################# */
 .navbar {

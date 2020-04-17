@@ -15,10 +15,10 @@ permalink: /listen/
 <div class="row mt-2">
   <div class="col">
    <a href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
-     <span class="credit-title">{{ mp3.title }}</span>{% if mp3.note != "false" %} <span>*</span>{% endif %}
+     <span class="listen-title">{{ mp3.title }}</span>{% if mp3.note != "false" %} <span>*</span>{% endif %}
    </a>
   </div>
-  <div class="col"><span class="credit-artist">{{ mp3.artist }}</span>
+  <div class="col"><span class="listen-artist">{{ mp3.artist }}</span>
   </div>
 </div>
   {% endif %}
@@ -37,11 +37,11 @@ permalink: /listen/
 <div class="row mt-2">
   <div class="col">
    <a  href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
-     <span class="credit-title">{{ mp3.title }}</span>
+     <span class="listen-title">{{ mp3.title }}</span>
    </a>
   </div>
   <div class="col">
-   <span class="credit-artist">{{ mp3.artist }}</span>
+   <span class="listen-artist">{{ mp3.artist }}</span>
   </div>
 </div>
   {% endif %}
