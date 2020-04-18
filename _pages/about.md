@@ -4,18 +4,17 @@ title: About
 permalink: /about/
 ---
 
-## BIO
+<h2> BIO </h2>
 
-The Panther is a recording/creation space in the Portland, OR home of musician/engineer/producer Steve Drizos and wife Jenny Conlee. The studio and rehearsal space have been host to hundreds of various sessions and projects over the last 15+ years. I have been a professional touring musician for 25+ years, played thousands of shows and recorded on countless records and various studio projects.  I built my studio for the primary purpose of being able to record my own music, but soon discovered I had created a comfortable creative space that others seem to enjoy woking in as well. A combination of digital and analog worlds, The Panther has a vibe that is unique to itself.  I have recorded a wide range of artists, from solo acoustic singer/songwriters to string quartets to full rock bands. The Panther loves it all!  
+The Panther is a recording/creation space in the Portland, OR home of musician/engineer/producer Steve Drizos (that’s me) and wife Jenny Conlee. The studio and rehearsal space have been host to hundreds of various sessions and projects over the last 15+ years. I have been a professional touring musician for 25+ years, played thousands of shows and recorded on countless records and various studio projects.  I built my studio for the primary purpose of being able to record my own music, but soon discovered I had created a comfortable creative space that others seem to enjoy working in as well. A combination of digital and analog worlds, The Panther has a vibe that is unique to itself.  I have recorded a wide range of artists, from solo acoustic singer/songwriters to string quartets to full rock bands. The Panther loves it all!  
 
-A partial list of past clients include:
-
+A partial list of past clients includes:
 
 Size 85 High Tops/Dana Lyons/Kyleen King/Jon Frew/Bizarre Star Strings/André Paraguassu/Jesse Daniel Edwards/Mary Ryan/Cavity Search Records/Casey Neill/Jerry Joseph/Patterson Hood/Chris Funk/Young Jim Carr/Scotty McCaughey/Walter Salas-Humara/Alice DiMicele/Rob Stroup/Little Sue/Becky James/Facebook Live/Event Builder/Dan Weber/Joe Getty/Search Party Music
 
 <br>
 
-## TESTIMONIALS
+<h2> TESTIMONIALS </h2>
 
 “Working with Steve at The Panther is the most comfortable studio environment I have experienced in Portland. We quickly developed a rhythm, a flow that allowed for uninterrupted creativity and ultimate trust. Thanks to Steve’s years as a touring and session musician, he is intimately aware of the dynamics and concerns of working artists and knows all the vocabulary and tools to make you feel at ease and nurtured in your creative pursuits. I absolutely recommend working with him.”
 

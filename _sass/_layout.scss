@@ -13,6 +13,12 @@ body {
   //line-height: 1;
 }
 
+@media (min-width: 768px) {
+  body {
+    padding-top: 10%;
+  }
+}
+
 /*
 .img-fluid{
   width: auto !important; // 100%; 
