@@ -7,6 +7,7 @@ permalink: /listen/
 <div class="row mt-2">
   <div class="col">
    <h3>Recorded and Mixed by Steve Drizos</h3> 
+   <p>(Click song title to listen)</p>
   </div>
 </div>  
 
@@ -14,12 +15,12 @@ permalink: /listen/
   {% if mp3.recorded == "true" %}
 <div class="row mt-2">
   <div class="col">
-   <a href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
-      <span class="listen-title">{{ mp3.title }}</span>{% if mp3.note != "false" %} <span>*</span>{% endif %}
-   </a>
+   <span class="listen-artist">{{ mp3.artist }}</span>
   </div>
   <div class="col">
-   <span class="listen-artist">{{ mp3.artist }}</span>
+   <a href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
+      <span class="listen-title">{{ mp3.title }}</span>{% if mp3.note != "false" %}&nbsp;<span>*</span>{% endif %}
+   </a>
   </div>
 </div>
   {% endif %}
@@ -36,14 +37,14 @@ permalink: /listen/
 {% for mp3 in site.data.listen %}
   {% if mp3.recorded == "false" %}
 <div class="row mt-2">
-  <a  href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
-    <div class="col">
-      <span class="listen-title">{{ mp3.title }}</span>   
-    </div>
-    <div class="col">
-      <span class="listen-artist">{{ mp3.artist }}</span>
-    </div>
-  </a>
+  <div class="col">
+   <span class="listen-artist">{{ mp3.artist }}</span>
+  </div>
+  <div class="col">
+   <a  href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
+     <span class="listen-title">{{ mp3.title }}</span>   
+   </a>
+  </div>
 </div>
   {% endif %}
 {% endfor %}
