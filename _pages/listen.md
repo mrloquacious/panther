@@ -13,12 +13,13 @@ permalink: /listen/
 {% for mp3 in site.data.listen %}
   {% if mp3.recorded == "true" %}
 <div class="row mt-2">
-  <div class="col">
-   <a href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
-     <span class="listen-title">{{ mp3.title }}</span>{% if mp3.note != "false" %} <span>*</span>{% endif %}
-  </div>
-  <div class="col"><span class="listen-artist">{{ mp3.artist }}</span>
-  </div>
+  <a href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
+    <div class="col">
+      <span class="listen-title">{{ mp3.title }}</span>{% if mp3.note != "false" %} <span>*</span>{% endif %}
+    </div>
+    <div class="col">
+      <span class="listen-artist">{{ mp3.artist }}</span>
+    </div>
   </a>
 </div>
   {% endif %}
