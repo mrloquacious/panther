@@ -2,3 +2,11 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.DS_Store
+*.DS_Store
+*.swp
+assets/.DS_Store
+assets/unused
+assets/doneconvert
+\*doneconvert/
+\*unused/

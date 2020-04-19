@@ -1,0 +1,33 @@
+// My vars:
+$main-font: 'Futura', sans-serif;
+$nav-font-size:  2em;
+$nav-width: 900px;
+$content-width: 900px;
+$content-font: $main-font; 
+$panther-red: #d51920;
+$body-font: $main-font;
+$body-font-color: white;
+$body-bg-color: black;
+$link-color: white;
+$link-hover-color: $panther-red;
+$h1-font-color:  $panther-red;
+$h2-font: 'Futura', sans-serif;  
+$h2-font-color: $main-font;
+$h3-font: $main-font;
+$h3-font-color: white;
+
+// Will this work w/o re-compile?:
+$enable-responsive-font-sizes: true;
+
+// Need to recompile Bootstrap for these built-ins to work?:
+$font-family-base:'Futura', sans-serif;
+//$font-size-base
+//$line-height-base
+//$link-color: $panther-red;
+
+/*
+Use the $font-family-base, $font-size-base, and $line-height-base attributes as our typographic base applied to the <body>.
+Set the global link color via $link-color and apply link underlines only on :hover.
+Use $body-bg to set a background-color on the <body> (#fff by default).
+*/
+
