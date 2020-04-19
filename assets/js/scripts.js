@@ -1,10 +1,7 @@
 
-
-jQuery(window).load(function() {
+$(window).on('load', function() {
  
-    /*
-        Stop carousel
-    */
+    /* Stop carousel */
     $('.carousel').carousel('pause');
  
 });
