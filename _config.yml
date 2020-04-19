@@ -3,18 +3,18 @@
 
 # Site Settings
 title: The Panther PDX
-email: panther@thepantherpdx.com #TODO fix this.
+email: dexdrizos@yahoo.com
 description: >
   Studio info.
 # baseurl: "/panther" 
 baseurl: ''
-url: "http://pantherdev.netlify.com"
+url: https://mrloquacious.github.io/panther
+#url: "http://pantherdev.netlify.com"
 #url: "http://localhost:4000"
 #url: "http://mrloquacious.github.io"
 permalink: /:title.html
 page_permalink: pretty
 
-# ?
 defaults:
   - scope:
       path: "assets/img"
@@ -39,5 +39,4 @@ kramdown:
 #  - Gemfile
 #  - Gemfile.lock
 #  - node_modules
-#  - update_boostrap.sh
 
