@@ -16,10 +16,10 @@ permalink: /listen/
   <div class="col">
    <a href="{{ site.url | prepend: site.baseurl }}/assets/mp3/{{ mp3.mp3 }}" target="_blank" type="audio/mp3">
      <span class="listen-title">{{ mp3.title }}</span>{% if mp3.note != "false" %} <span>*</span>{% endif %}
-   </a>
   </div>
   <div class="col"><span class="listen-artist">{{ mp3.artist }}</span>
   </div>
+  </a>
 </div>
   {% endif %}
 {% endfor %}
