@@ -1,7 +1,7 @@
 
-$(window).on('load', function() {
+//$(window).on('load', function() {
  
     /* Stop carousel */
-    $('.carousel').carousel('pause');
+//    $('.carousel').carousel('pause');
  
-});
+//});
