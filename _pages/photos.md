@@ -4,7 +4,7 @@ title: Photos
 permalink: /photos/
 ---
 
-<div id="myCarousel" class="carousel slide">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
   {% for pic in site.data.photo %}
    <div class="carousel-item {% if forloop.first %}active{% endif %} text-center">
