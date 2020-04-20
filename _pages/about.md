@@ -10,7 +10,7 @@ The Panther is a recording/creation space in the Portland, OR home of musician/e
 
 A partial list of past clients includes:
 
-Size 85 High Tops/Dana Lyons/Kyleen King/Jon Frew/Bizarre Star Strings/André Paraguassu/Jesse Daniel Edwards/Mary Ryan/Cavity Search Records/Casey Neill/Jerry Joseph/Patterson Hood/Chris Funk/Young Jim Carr/Scotty McCaughey/Walter Salas-Humara/Alice DiMicele/Rob Stroup/Little Sue/Becky James/Facebook Live/Event Builder/Dan Weber/Joe Getty/Search Party Music
+Size 85 High Tops/Dana Lyons/Kyleen King/Jon Frew/Bizarre Star Strings/André Paraguassu/Jesse Daniel Edwards/Mary Ryan/Cavity Search Records/Casey Neill/Jerry Joseph/Patterson Hood/Chris Funk/Young Jim Carr/Scott McCaughey/Walter Salas-Humara/Alice DiMicele/Rob Stroup/Little Sue/Becky James/Facebook Live/Event Builder/Dan Weber/Joe Getty/Search Party Music
 
 <br>
 
