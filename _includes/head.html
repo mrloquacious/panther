@@ -11,7 +11,7 @@
   {% endif %}
 
  	<link rel="stylesheet" href="{{ "/assets/css/styles.css" | prepend: site.baseurl }}">
-
+  {% seo %}
   <link rel="shortcut icon" type="image/png" href="{{"/favicon.ico" | prepend:site.baseurl }}">
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
