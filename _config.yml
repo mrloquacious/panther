@@ -9,18 +9,17 @@ description: >
 #baseurl: "/panther" 
 baseurl: ''
 url: https://thepantherpdx.com
-#url: https://mrloquacious.github.io
 #url: "http://pantherdev.netlify.com"
 #url: "http://localhost:4000"
 #url: "http://mrloquacious.github.io"
 permalink: /:title.html
 page_permalink: pretty
 
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
+#defaults:
+#  - scope:
+#      path: "assets/img"
+#    values:
+#      image: true
 
 # Build Settings
 sass:
@@ -31,7 +30,7 @@ kramdown:
   plugins:
   - jekyll-seo-tag
   - jekyll-sitemap 
-  - jekyll-feed
+    #- jekyll-feed
  
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
