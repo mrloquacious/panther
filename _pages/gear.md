@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Gear
+title: Gear list for the Panther studio in Portland, OR 
+heading: Gear
 permalink: /gear/
 ---
 

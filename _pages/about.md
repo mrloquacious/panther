@@ -1,6 +1,7 @@
 ---
 layout: default
-title: About
+title: About the Panther recording studio in Portland, OR
+heading: About
 permalink: /about/
 ---
 
