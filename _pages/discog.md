@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Discog
+title: Discography of works recorded by Steve Drizos at the Panther studio 
+heading: Discog
 permalink: /discog/
 ---
 

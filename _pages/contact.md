@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Contact
+title: Contact Steve Drizos at the Panther in Portland, OR
+heading: Contact
 permalink: /contact/
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Listen
+title: Listen to some songs recorded by Steve Drizos at the Panther studio 
+heading: Listen
 permalink: /listen/
 ---
 

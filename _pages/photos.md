@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Photos
+title: Photos of the Panther studio in Portland, OR
+heading: Photos
 permalink: /photos/
 ---
 
