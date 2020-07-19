@@ -2,7 +2,7 @@ body {
   color: $body-font-color;
   background-color: $body-bg-color;
   font-family: $body-font;
-  padding-top: 100px; //  10%; //140px;
+  //padding-top: 100px; //  10%; //140px;
   -webkit-font-smoothing: antialiased;
 
   speak: none;
@@ -19,10 +19,23 @@ body {
 
 @media (min-width: 768px) {
   body {
-    padding-top: 10%;
+    //padding-top: 10%;
     //padding-top: 5%;
   }
 }
+
+.container {
+  //padding-top: 100px;
+  padding-top: 60px;
+}
+
+@media (min-width: 768px) {
+.not-photo {
+    padding-top: 10%;
+  }
+}
+
+
 
 /*
 .img-fluid{
