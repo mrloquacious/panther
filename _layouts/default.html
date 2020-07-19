@@ -2,7 +2,7 @@
 <html>
   {% include head.html %}
   <body>
-    <div class="container">
+    <div class="container {% if page.heading != 'Photos' %} not-photo {% endif %}">
       <div class="page-container">
         <div class="content-wrap">
 
