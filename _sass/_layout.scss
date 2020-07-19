@@ -13,9 +13,14 @@ body {
   //line-height: 1;
 }
 
+/*body .carousel-item {
+  padding-top: -100px;
+}*/
+
 @media (min-width: 768px) {
   body {
     padding-top: 10%;
+    //padding-top: 5%;
   }
 }
 
