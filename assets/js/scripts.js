@@ -11,3 +11,9 @@
 //    $('.carousel').carousel('pause');
  
 //});
+//
+//
+
+function stopCarousel() {
+  $('.carousel').carousel('pause');
+}
