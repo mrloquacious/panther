@@ -14,6 +14,7 @@ permalink: /listen/
 
 {% for mp3 in site.data.listen %}
   {% if mp3.recorded == "true" %}
+  {% if mp3.title != "Static" %}
 <div class="row mt-2">
   <div class="col">
    <span class="listen-artist">{{ mp3.artist }}</span>
@@ -24,6 +25,7 @@ permalink: /listen/
    </a>
   </div>
 </div>
+  {% endif %}
   {% endif %}
 {% endfor %}
 
