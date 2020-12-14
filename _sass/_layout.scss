@@ -120,6 +120,21 @@ a:hover {
 
 /* ##### End Navbar custom color ################################# */
 
+/* STORE */
+
+.merch-item {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.home-store {
+  margin-left: 10%;
+}
+
+/* END STORE */
+
 /* FOOTER */
 footer {
   font-size: .75em;
@@ -139,12 +154,6 @@ footer {
 .content-wrap {
   padding-bottom: 2.5rem; /* Footer height */
 }
-
-
-
-
-
-
 
 
 /* ##### Start Media queries ################################# */

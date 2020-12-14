@@ -21,7 +21,11 @@ pgs:
     permalink: /discog/
   - title: Photos 
     order: 6
-    url: photo.html
+    url: photo.html #Should fix this
     permalink: /photos/
+  - title: Store
+    order: 7
+    url: store.html
+    permalink: /store/   
 ---
 
