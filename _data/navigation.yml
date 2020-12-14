@@ -27,5 +27,9 @@ pgs:
     order: 7
     url: store.html
     permalink: /store/   
+  - title: Store2
+    order: 8
+    url: store2.html
+    permalink: /store2/   
 ---
 

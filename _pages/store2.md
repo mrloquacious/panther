@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Shop at the Panther online store
-heading: Store
-permalink: /store/
+heading: Store2
+permalink: /store2/
 ---
 
 <div class="row mt-2">
 
   <!-- Jersey -->
-  <div class="col-lg-12">
+  <div class="col-lg-3">
   <div id='product-component-1602092162140' class=" merch-item"></div>
   <script type="text/javascript">
   /*<![CDATA[*/
@@ -97,14 +97,11 @@ permalink: /store/
   })();
   /*]]>*/
   </script>
-  <br>
-  <br>
-  <br>
   </div>
   <!-- End Jersey -->
   
   <!-- Women's -->
-  <div class="col-lg-12">
+  <div class="col-lg-3">
   <div id='product-component-1602095624321' class=" merch-item"></div>
   <script type="text/javascript">
   /*<![CDATA[*/
@@ -200,7 +197,7 @@ permalink: /store/
   <!-- End Women's -->
 
   <!-- Men's -->
-  <div class="col-lg-12">
+  <div class="col-lg-3">
   <div id='product-component-1602095594496' class=" merch-item"></div>
   <script type="text/javascript">
   /*<![CDATA[*/
@@ -296,7 +293,7 @@ permalink: /store/
   <!-- End Men's -->
 
   <!-- Mask -->
-  <div class="col-lg-12">
+  <div class="col-lg-3">
   <div id='product-component-1602095561336' class=" merch-item"></div>
   <script type="text/javascript">
   /*<![CDATA[*/
