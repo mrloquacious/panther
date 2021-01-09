@@ -23,9 +23,9 @@ pgs:
     order: 6
     url: photo.html #Should fix this
     permalink: /photos/
-  - title: Store
+  - title: Shop
     order: 7
-    url: store.html
-    permalink: /store/   
+    url: shop.html
+    permalink: /shop/   
 ---
 
