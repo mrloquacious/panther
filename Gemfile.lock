@@ -132,7 +132,14 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (1.7.0)
+<<<<<<< Updated upstream
     zeitwerk (2.5.4)
+||||||| Stash base
+    zeitwerk (2.4.2)
+=======
+    webrick (1.7.0)
+    zeitwerk (2.4.2)
+>>>>>>> Stashed changes
 
 PLATFORMS
   ruby
@@ -142,6 +149,7 @@ DEPENDENCIES
   jekyll
   jekyll-seo-tag
   jekyll-sitemap
+  webrick (~> 1.7)
 
 BUNDLED WITH
-   2.1.4
+   2.3.5

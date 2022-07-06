@@ -30,12 +30,14 @@ body {
 }
 
 @media (min-width: 768px) {
-.not-photo {
+  .not-photo {
     padding-top: 10%;
   }
+
+  .invisible-header {
+    height: 0px;
+  }
 }
-
-
 
 /*
 .img-fluid{
@@ -76,18 +78,24 @@ a:hover {
 }
 
 .gear-name {
-  font-size: 1.25rem; 
+  font-size: 1.25rem;
 }
 
-.credit-title, .credit-artist, .credit-year, .credit-type, .listen-title, .listen-artist, .contact-info {
+.credit-title,
+.credit-artist,
+.credit-year,
+.credit-type,
+.listen-title,
+.listen-artist,
+.contact-info {
   font-size: 1.15rem;
-} 
+}
 
 /* ##### Start Navbar ############################################# */
 .navbar {
   font-size: $nav-font-size;
   background-color: black !important;
-  line-height: .8;
+  line-height: 0.8;
 }
 
 .navbar .navbar-collapse {
@@ -95,22 +103,24 @@ a:hover {
 }
 
 .navbar-custom {
-    background-color: black;
+  background-color: black;
 }
 
 /* ##### Start Navbar custom color ################################# */
 /* change the brand and text color */
-.navbar-custom .navbar-brand, .navbar-custom .navbar-text {
-    //color: $link-color;
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  //color: $link-color;
 }
 
 /* change the link color */
 .navbar-custom .navbar-nav .nav-link {
-    color: $link-color;
+  color: $link-color;
 }
 /* change the color of active or hovered links */
-.navbar-custom .nav-item.active .nav-link, .navbar-custom .nav-item:hover .nav-link {
-    color: $link-hover-color;
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: $link-hover-color;
 }
 
 // this is a white icon with 50% opacity
@@ -137,7 +147,7 @@ a:hover {
 
 /* FOOTER */
 footer {
-  font-size: .75em;
+  font-size: 0.75em;
   position: absolute;
   bottom: 0; // 10px;
   width: 100%;
@@ -148,37 +158,31 @@ footer {
 
 /* Keeps the footer at the bottom */
 .page-container {
-  position: relative; 
+  position: relative;
   min-height: 100vh;
 }
 .content-wrap {
   padding-bottom: 2.5rem; /* Footer height */
 }
 
-
 /* ##### Start Media queries ################################# */
 // Extra small devices (portrait phones, less than 576px)
-@media (max-width: 575.98px) { 
-  
+@media (max-width: 575.98px) {
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) and (max-width: 767.98px) {
-
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { 
-
+@media (min-width: 768px) and (max-width: 991.98px) {
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) and (max-width: 1199.98px) { 
-
+@media (min-width: 992px) and (max-width: 1199.98px) {
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
 }
 /* ##### End Media queries ################################# */
