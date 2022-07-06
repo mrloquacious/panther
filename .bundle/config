@@ -1,2 +1,3 @@
 ---
 BUNDLE_PATH: "/opt/build/cache/bundle"
+BUNDLE_DEPLOYMENT: "true"
