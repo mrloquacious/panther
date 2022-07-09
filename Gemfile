@@ -15,3 +15,5 @@ end
 gem 'bootstrap', '~> 4.3.1'
 
 gem "webrick", "~> 1.7"
+
+gem "railties", "~> 7.0.0"
