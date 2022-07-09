@@ -96,7 +96,7 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.4.3)
       loofah (~> 2.3)
-    railties (7.0.3)
+    railties (7.0.0)
       actionpack (= 7.0.3)
       activesupport (= 7.0.3)
       method_source
