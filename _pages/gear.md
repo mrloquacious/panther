@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gear list for the Panther studio in Portland, OR 
+title: Gear list for the Panther studio in Portland, OR
 heading: Gear
 permalink: /gear/
 ---
@@ -12,10 +12,11 @@ permalink: /gear/
 {% endcomment %}
 
 {% for category in site.data.geartype %}
+
   <h3>{{ category.geartype | upcase }}</h3>
     {% for item in site.data.gear %}
       {% if item.type == category.geartype %}
-   <span class="gear-name">{{ item.name }}</span>{% if item.checkavail == "true" %}<span>\*</span>{% endif %} <br>
+   <span class="gear-name">{{ item.name }}</span>{% if item.checkavail == "true" %}<span> \*</span>{% endif %} <br>
       {% endif %}
     {% endfor %}
    <br>
@@ -26,15 +27,27 @@ permalink: /gear/
 <br><br>
 
 {% comment %}
+
 ## Monitoring
+
 ## A/D Converters
+
 ## DAW
+
 ## Outboard/Hardware
+
 ## Microphones
+
 ## Plug Ins
+
 ## Guitars
+
 ## Amps
+
 ## Keys
+
 ## Drums/Percussion
+
 ## Other
+
 {% endcomment %}
