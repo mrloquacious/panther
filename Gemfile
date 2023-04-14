@@ -12,4 +12,7 @@ end
 
 gem 'bootstrap', '~> 4.3.1'
 
+# Add 041323 re dependabot vulnerability:
+gem "activesupport", ">= 6.1.7.3"
+
 gem 'webrick'
