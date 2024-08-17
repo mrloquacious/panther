@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 
 #gem 'jekyll'
-gem 'github-pages', '226'
+gem 'github-pages', '229'
 
 group :jekyll_plugins do
   gem 'jekyll-seo-tag'
@@ -13,3 +13,11 @@ end
 gem 'bootstrap', '~> 4.3.1'
 
 gem 'webrick'
+
+# After updates on 8/17/24
+
+gem 'csv', '~> 3.0'
+gem 'base64', '~> 0.2.0'
+gem 'bigdecimal', '~> 2.0'
+
+#gem 'jekyll', '~> 4.0'
