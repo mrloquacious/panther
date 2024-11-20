@@ -10,7 +10,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap' 
 end
 
-gem 'bootstrap', '~> 4.3.1'
+gem 'bootstrap', '~> 4.6.2'
 
 gem 'webrick'
 
