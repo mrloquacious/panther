@@ -19,10 +19,10 @@ pgs:
     order: 5
     url: discog.html
     permalink: /discog/
-  - title: Photos 
-    order: 6
-    url: photo.html #Should fix this
-    permalink: /photos/
+  #- title: Photos 
+  #  order: 6
+  #  url: photo.html #Should fix this
+  #  permalink: /photos/
   - title: Shop
     order: 7
     url: shop.html
