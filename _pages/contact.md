@@ -18,7 +18,7 @@ permalink: /contact/
 
    <div class="contact-info">
    <div>Steve Drizos</div>
-   <div>dexdrizos@yahoo.com</div>
+   <div>thepantherpdx@gmail.com</div>
    <div>(503)380-5821</div>  
    </div>
   </div>
